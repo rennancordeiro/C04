@@ -102,5 +102,5 @@ url_chat = "https://www1.compras.mg.gov.br/processocompra/pregao/consulta/dados/
 not_found = "entidadeNaoEncontrada"
 chat_not_found = 'O(A) "Pregão" não pode ser alterado(a), pois foi excluído(a) por outro usuário, em acesso concorrente, enquanto esta tela era visualizada.'
 
-for i in range(120000,200000):
+for i in range(0,5000):
     download(driver, i)
